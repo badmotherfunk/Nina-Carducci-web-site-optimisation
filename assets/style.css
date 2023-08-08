@@ -86,13 +86,13 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	width: 60%;
-	font-size: 17px;
+	width: 50%;
+	font-size: 25px;
 }
 
 #about-me p {
 	width: 80%;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .title{
@@ -293,6 +293,9 @@ input[type="submit"] {
 	.about-me__title{
 		text-align: center;
 		margin-top: 1em;
+	}
+	.about-me__introduction {
+		width: 100%;
 	}
 	#services .container {
 		flex-direction: column;
